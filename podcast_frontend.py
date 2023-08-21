@@ -4,7 +4,7 @@ import json
 import os
 
 def main():
-    st.title(":robot_head: AI Podcast Summariser")
+    st.title(":robot_face: AI Podcast Summariser")
 
     available_podcast_info = create_dict_from_json_files('.')
 
